@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+/* css reset */
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    color:#fff
+}
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    margin-top: -7px;
+}
+
+.center {
+     display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.right {
+   display: inline-block;
+    position: absolute;
+    top: 20px;
+    right:30px;
+}
+
+/* .navbar {
+    overflow: auto;
+} */
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    padding: 34px 24px;
+    font-size: 25px;
+
+}
+
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+    color: rgb(187, 15, 135);
+}
+.left img{
+    width:170px;
+   
+}
+.btn{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    margin: 0px 9px;
+    padding:4px 20px;
+    border-radius: 10px;
+    color:#fff;
+    background-color: rgb(187, 15, 135);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: none;
+    border:none;
+}
+.btn:hover{
+    background-color: rgb(235, 130, 11);;
+}
+.container {
+    /* border: 2px solid rgb(187, 15, 135);
+    width: 333px;
+    height: 250px;
+    margin: 182px 100px;
+    border-radius: 10px;
+    padding: 58px 30px;
+    align-items: center; */
+    border: 2px solid white;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-groups input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 460px;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.form-groups .btn {
+    display: block;
+    width: 460px;
+    margin: 20px auto;
+}
+
+.container h2 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: rgb(187, 15, 135);
+    text-align: center;
+}
